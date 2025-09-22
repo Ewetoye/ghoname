@@ -24,4 +24,7 @@ Opay Wallet System:
     'qweb': [],
     'installable': True,
     'application': True,
+    'external_dependencies': {
+        'python': ['Crypto'],
+    },
 }
